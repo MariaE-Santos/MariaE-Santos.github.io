@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+	<link rel="stylesheet" href="css/logi.css">
+	<script src="js/ca.js"></script>
+</head>
+<body>
+
+	<h1> Cadastro </h1>
+
+	<br>
+	<form name="frmCad" method="post" action="banco.php" onsubmit="return Cadastrar()">
+		<div id="formulario">
+		<h4 class="titulos">Email</h4>
+		<input type="email" name="txtEmail" id="idEmail" placeholder="Digite seu email">
+		<h4 class="titulos">Senha</h4>
+		<input type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha">
+		<h4 class="titulos">Confirmar senha</h4>
+		<input type="password" name="txtConfSenha" id="idConfSenha" placeholder="Confirme a senha">
+		<br><br>
+		<button type="submit" id="butao">Cadastrar</button>
+
+
+			
+		</div>
+		</form>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+	background-image:url('imagemform.jpg');
+	margin: 0px;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.cadastro{
+	background-color:#708090;
+	width: 300px;
+	height: 450px;
+	border-radius:5px;
+	padding: 10px;
+	background: rgba(0,0,0,0.69); /*Código de transparencia do box*/
+	
+
+}
+table{
+	width: 100%;
+}
+
+.text1{
+	color: #ffff;
+	text-align: center;
+	font-family: Andale Mono,monospace;
+	font-weight: 600;
+	font-size:20px ;
+}
+
+input{
+	border: none;
+	border-bottom: 2px solid #ccc;
+	width: 285px;
+	margin-top: 25px;
+	font-size: 15px;
+	outline: 0;
+	box-shadow: 0 0 0 0;
+	color: #778899;
+}
+
+button{
+	width: 290px;
+	height: 40px;
+	margin-top: 25px;
+	border-radius: 80px;
+	border: 0px;
+	background:-webkit-gradient(linear, left top, right top, from(#FF4500), to(#FFFF00)) no-repeat;
+    background: -moz-linear-gradient(left,#FF4500,#FFFF00);
+    color: #fff;
+
+}
+
+button:hover{
+	cursor: url(banco.php) 2 2, pointer;
+
+}
+
+.text2{
+	color: #ffff;
+	text-align: center;
+	font-size: 10px;
+	font-weight: 5;
+	margin-top: 60px;
+
+	}
+
+.img{
+	border-image: 2px;
+	margin-left:auto ;
+	margin-right:auto ;
+	display: block;
+
+
+	}

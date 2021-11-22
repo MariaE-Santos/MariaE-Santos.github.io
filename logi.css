@@ -1,0 +1,63 @@
+body{
+	background-color: #ccc;
+	margin: 0px;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.login{
+	background-color: #fff;
+	width: 300px;
+	height: 420px;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+table{
+	width: 100%;
+}
+
+.text1{
+	text-align: center;
+	font-family: andale mono, monospace;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+input{
+	border: none;
+	border-bottom: 2px solid #ccc;
+	width: 285px;
+	margin-top: 25px;
+	font-size: 15px;
+	outline: 0;
+	box-shadow: 0 0 0 0;
+	color:#778899;
+}
+
+button{
+	width: 290px;
+	height: 40px;
+	margin-top: 25px;
+	border-radius: 80px;
+	border: 0px;
+	background:-webkit-gradient(linear, left top, right top, from(#9999ff), to(#ff9999)) no-repeat;
+	background: -moz-linear-gradient(left,#9999ff,#ff9999);
+}
+
+button:hover{
+	background:-webkit-gradient(linear, left top, right top, from(#ffff99), to(#99ff99)) no-repeat;
+	background: -moz-linear-gradient(left,#ffff99,#99ff99);
+	cursor:url(cursor2.png) 2 2, pointer;
+}
+
+.login{
+	color: red;
+}
