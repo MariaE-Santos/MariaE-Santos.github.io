@@ -1,0 +1,242 @@
+* { 
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    
+    }
+
+html {
+    scroll-behavior: smooth;
+    
+    border-radius: 30px;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+    gap: 2rem;
+
+    
+    background-color: #180019;
+    height: 4rem; 
+    width: 100%;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0.1);
+}
+
+section {
+    min-height: 80vh;
+    padding-top: 1rem;
+    text-align: center;
+    background: linear-gradient(135deg, #1afbf0, #da00ff);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+section:nth-of-type(2){
+    background-image: url(images/imagemprod3.jpg);
+    height: 100%;
+ 
+   
+}
+
+section:nth-of-type(4){
+    background-image: url(images/imagemservicos1.jpg);
+    height: 100%;
+}
+
+section:nth-of-type(1){
+    background-image: url(images/imageminicial6.png);
+    height: 100%;
+}
+
+#inicio {
+  
+
+}
+
+#produtos {
+   
+}
+
+#sobrenos {
+   
+}
+
+#servicos {
+    
+}
+
+#contatos {
+ 
+}
+
+.imagemlogo {
+    width: 100px;
+    padding-left: 520px;
+}
+
+.servicos1{
+    border-radius: 730px;
+    width: 500px;
+    padding-right: 100px;
+    
+}
+
+.prototipo{
+    padding-top: 5rem;
+    
+
+}
+
+.textprod{
+    font-size: 60px;
+   
+}
+
+.textprod1{
+    font-size: 20px;
+    padding-top: 100;
+   
+}
+
+.serv1{
+    font-size: 30px;
+    padding-right: 800px;
+    
+}
+.serv2{
+    font-size: 30px;
+    padding-right: 933px;
+    
+}
+.serv3{
+    font-size: 30px;
+    padding-right: 1077px;
+}
+.serv4{
+    font-size: 30px;
+    padding-right: 1210px;
+}
+.serv5{
+    font-size: 30px;
+    padding-right: 1100px;
+}
+
+.logo{
+    font-size: 50px;
+    padding-top: 300px; 
+}
+
+
+  /*BOTÃO*/
+  button {
+    position: relative;
+    padding: 1em 1.8em;
+    outline: none;
+    border: 1px solid #303030;
+    background: #212121;
+    color: #ae00ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+   }
+   
+   button:hover {
+    box-shadow: 0 0 10px #ae00ff, 0 0 25px #001eff, 0 0 50px #ae00ff;
+    transition-delay: 0.6s;
+   }
+   
+   button span {
+    position: absolute;
+   }
+   
+   button span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ae00ff);
+   }
+   
+   button:hover span:nth-child(1) {
+    left: 100%;
+    transition: 0.7s;
+   }
+   
+   button span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #001eff);
+   }
+   
+   button:hover span:nth-child(3) {
+    right: 100%;
+    transition: 0.7s;
+    transition-delay: 0.35s;
+   }
+   
+   button span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ae00ff);
+   }
+   
+   button:hover span:nth-child(2) {
+    top: 100%;
+    transition: 0.7s;
+    transition-delay: 0.17s;
+   }
+   
+   button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #001eff);
+   }
+   
+   button:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 0.7s;
+    transition-delay: 0.52s;
+   }
+   
+   button:active {
+    background: #ae00af;
+    background: linear-gradient(to top right, #ae00af, #001eff);
+    color: #bfbfbf;
+    box-shadow: 0 0 8px #ae00ff, 0 0 8px #001eff, 0 0 8px #ae00ff;
+    transition: 0.1s;
+   }
+   
+   button:active span:nth-child(1) 
+   span:nth-child(2) 
+   span:nth-child(2) 
+   span:nth-child(2) {
+    transition: none;
+    transition-delay: none;
+   }
+
+.imginicial{
+    width: 100%;
+    height: 100%;
+}
+
+/* BOTAO PRODUTOS*/
+  
